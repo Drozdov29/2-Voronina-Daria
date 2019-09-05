@@ -61,3 +61,113 @@
   font-style: normal;
 }
 
+body {
+  position: relative;
+  font-family: 'Source Serif Pro-Regular', serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.header {
+  margin: 0 auto;
+  width: 1440px;
+  min-height: 782px;
+  background: url(../img/block-1/b1-border.png) no-repeat top 100px right 60px,  
+              url(../img/block-1/b1-karly-gomez.jpg) no-repeat top right;  
+  background-color: #f8f8f8;
+}
+
+.navigation {
+  display: flex;
+  margin-bottom: 47px;
+}
+
+.navigation-logo img {
+  width: 254px;
+  height: 76px;
+  margin-right: 82px;
+}
+
+.navigation-list {
+  min-height: 76px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  padding-top: 36px;
+}
+
+.navigation-item-link {
+  opacity: 0.6;
+  color: #212021;
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 87px;
+  text-decoration: none;
+}
+
+.navigation-item:nth-child(3) {
+  padding-right: 67px;
+}
+
+.navigation-wrap {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.navigation-wrap-text {
+  margin-left: 155px;
+  width: 505px;
+  position: relative;
+}
+
+.navigation-wrap-text h1 {
+  padding: 0;
+  margin: 0;
+  color: #212021;
+  font-family: 'Source Serif Pro-Semibold';
+  font-size: 48px;
+  padding-top: 150px;
+  margin-bottom: 33px;
+}
+
+.navigation-wrap-text p {
+  padding: 0;
+  margin: 0;
+  color: #212021;
+  font-size: 18px;
+  font-weight: 300;
+  padding-right: 240px;
+  margin-bottom: 42px;
+}
+
+.navigation-wrap-text a {
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Source Serif Pro-Semibold';
+  color: #212021;
+  font-weight: 600;
+}
+
+.navigation-wrap-text a::before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #000000;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+}
+
+.navigation-link {
+  opacity: 0.4;
+  color: #212021;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  text-decoration: none;
+  margin-left: 154px;
+}
