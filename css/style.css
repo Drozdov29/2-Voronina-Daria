@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../font/Lato-Light300/Lato-Light.eot');
+  src: url('../font/Lato-Light300/') format('embedded-opentype'),
+      url('../font/Lato-Light300/Lato-Light.woff2') format('woff2'),
+      url('../font/Lato-Light300/Lato-Light.woff') format('woff'),
+      url('../font/Lato-Light300/Lato-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('MyriadPro-Bold.eot');
+  src: url('MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('MyriadPro-Bold.woff2') format('woff2'),
+      url('MyriadPro-Bold.woff') format('woff'),
+      url('MyriadPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Source Serif Pro-Bold';
+  src: url('SourceSerifPro-Bold.eot');
+  src: url('SourceSerifPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('SourceSerifPro-Bold.woff2') format('woff2'),
+      url('SourceSerifPro-Bold.woff') format('woff'),
+      url('SourceSerifPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro-Light';
+  src: url('SourceSerifPro-Light.eot');
+  src: url('SourceSerifPro-Light.eot?#iefix') format('embedded-opentype'),
+      url('SourceSerifPro-Light.woff2') format('woff2'),
+      url('SourceSerifPro-Light.woff') format('woff'),
+      url('SourceSerifPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro-Regular';
+  src: url('SourceSerifPro-Regular.eot');
+  src: url('SourceSerifPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('SourceSerifPro-Regular.woff2') format('woff2'),
+      url('SourceSerifPro-Regular.woff') format('woff'),
+      url('SourceSerifPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro-Semibold';
+  src: url('SourceSerifPro-Semibold.eot');
+  src: url('SourceSerifPro-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('SourceSerifPro-Semibold.woff2') format('woff2'),
+      url('SourceSerifPro-Semibold.woff') format('woff'),
+      url('SourceSerifPro-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
