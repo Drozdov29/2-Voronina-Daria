@@ -124,14 +124,47 @@ body {
 }
 
 .navigation-wrap-text h1 {
+  position: relative;
   padding: 0;
   margin: 0;
   color: #212021;
   font-family: 'Source Serif Pro-Semibold';
   font-size: 48px;
-  padding-top: 150px;
+  margin-top: 150px;
   margin-bottom: 33px;
+  z-index: 5;
 }
+
+.navigation-wrap-text h1::before {
+  /* display: inline-block; */
+  content: "Food";
+  position: absolute;
+  /* color: #fffeff; */
+  color: red;
+  font-family: "Source Serif Roman - Semibold";
+  font-size: 83px;
+  font-weight: 400;
+  left: -26px;
+  top: -38px;
+  z-index: 1;
+}
+
+.navigation-wrap-text h1::after {
+  /* display: inline-block; */
+  content: "Photogrphy";
+  position: absolute;
+  /* color: #fffeff; */
+  color: red;
+  font-family: "Source Serif Roman - Semibold";
+  font-size: 52px;
+  font-weight: 400;
+  right: 67px;
+  bottom: -25px;
+  z-index: 1;
+}
+
+
+
 
 .navigation-wrap-text p {
   padding: 0;
