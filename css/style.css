@@ -76,6 +76,7 @@ body {
   background: url(../img/block-1/b1-border.png) no-repeat top 100px right 60px,  
               url(../img/block-1/b1-karly-gomez.jpg) no-repeat top right;  
   background-color: #f8f8f8;
+  margin-bottom: 142px;
 }
 
 .navigation {
@@ -117,8 +118,42 @@ body {
   margin-bottom: 35px;
 }
 
+.navigation-wrap-pager {
+  margin-top: 120px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pager-link {
+  text-decoration: none;
+  color: #c8c9ca;
+  margin-bottom: 39px;
+}
+
+.pager-link-active {
+  width: 37px;
+  text-align: center;
+  position: relative;
+  font-family: 'Lato';
+  font-size: 14.1px;
+  font-weight: 300;
+  color: #212021;
+  font-style: italic;
+}
+
+.pager-link-active::before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #000000;
+  width: 37px;
+  bottom: -10px;
+  left: 0;
+}
+
 .navigation-wrap-text {
-  margin-left: 155px;
+  margin-left: 98px;
   width: 505px;
   position: relative;
 }
@@ -136,35 +171,28 @@ body {
 }
 
 .navigation-wrap-text h1::before {
-  /* display: inline-block; */
   content: "Food";
   position: absolute;
-  /* color: #fffeff; */
-  color: red;
+  color: #fffeff;
   font-family: "Source Serif Roman - Semibold";
   font-size: 83px;
   font-weight: 400;
   left: -26px;
   top: -38px;
-  z-index: 1;
-}
+  z-index: -1;
+} 
 
 .navigation-wrap-text h1::after {
-  /* display: inline-block; */
   content: "Photogrphy";
   position: absolute;
-  /* color: #fffeff; */
-  color: red;
+  color: #fffeff;
   font-family: "Source Serif Roman - Semibold";
   font-size: 52px;
   font-weight: 400;
   right: 67px;
   bottom: -25px;
-  z-index: 1;
+  z-index: -1;
 }
-
-
-
 
 .navigation-wrap-text p {
   padding: 0;
@@ -203,4 +231,79 @@ body {
   letter-spacing: 1.4px;
   text-decoration: none;
   margin-left: 154px;
+}
+
+/* -- // Блок 1 //-- */
+
+/* --  Блок 2 -- */
+
+.portfolio {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+  
+}
+
+.portfolio-line {
+  width: 2px;
+  height: 38px;
+  border: 1px solid #cb98a8;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.portfolio-title {
+  padding: 0;
+  margin: 0;
+  color: #212021;
+  font-family: "Source Serif Roman - Semibold";
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 3.6px;
+  text-align: center;
+  margin-bottom: 106px;
+}
+
+.portfolio-inner-text {
+  display: flex;
+  min-height: 1075px;
+  width: 1100px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.portfolio-inner-text__desc-one {
+  width: 414px;
+}
+
+.portfolio-inner-text__desc-two {
+  width: 317px;
+}
+
+.portfolio-inner-text__desc-three {
+  width: 315px;
+}
+
+.desc-img {
+  margin-bottom: 19px;
+}
+
+.desc-link {
+  text-decoration: none;
+  color: #1d1c1c;
+  font-family: "Source Serif Roman";
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.desc-subtext {
+  margin: 0;
+  padding: 0;
+  color: #1d1c1c;
+  font-family: "Source Serif Roman";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  width: 330px;
 }
