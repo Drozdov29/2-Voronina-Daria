@@ -119,10 +119,11 @@ body {
 }
 
 .navigation-wrap-pager {
-  margin-top: 120px;
+  width: 130px;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .pager-link {
@@ -153,7 +154,7 @@ body {
 }
 
 .navigation-wrap-text {
-  margin-left: 98px;
+  margin-left: 7px;
   width: 505px;
   position: relative;
 }
@@ -241,7 +242,10 @@ body {
   position: relative;
   width: 1440px;
   margin: 0 auto;
-  
+  background: url(../img/block-2/b2-list1.png) no-repeat left 95px top 106px,
+              url(../img/block-2/b2-list2.png) no-repeat right 501px top 54px,
+              url(../img/block-2/b2-list3.png) no-repeat right 124px top 209px;
+  margin-bottom: 150px;
 }
 
 .portfolio-line {
@@ -264,13 +268,16 @@ body {
   margin-bottom: 106px;
 }
 
+.portfolio-container {
+  display: flex;
+}
+
 .portfolio-inner-text {
   display: flex;
-  min-height: 1075px;
-  width: 1100px;
+  min-height: 1060px;
+  width: 1180px;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
+  justify-content: space-around;
 }
 
 .portfolio-inner-text__desc-one {
@@ -306,4 +313,57 @@ body {
   font-weight: 700;
   text-align: left;
   width: 330px;
+  margin-top: 15px;
+}
+
+.desc-subtext--bottom {
+  margin-bottom: 90px;
+}
+
+.navigation-link--block2 {
+  writing-mode: vertical-rl;
+  text-align: center;
+  margin-left: 55px;
+}
+
+/* -- // Блок 2 //-- */
+
+/* --  Блок 3 -- */
+
+.portfolio-more {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 1440px;
+  min-height: 510px;
+  margin: 0 auto;
+  background: url(../img/block-3/b3-bg2.png) no-repeat left 421px top 38px,
+              url(../img/block-3/b3-bg1.png) no-repeat left top;
+  margin-bottom: 130px;
+}
+
+.portfolio-more-content {
+  display: flex;
+  margin-top: 86px;
+  width: 970px;
+}
+
+.portfolio-more-img {
+  margin-right: 31px;
+}
+
+.portfolio-more-title {
+  font-family: 'Source Serif Pro-Semibold';
+  font-size: 24px;
+  font-weight: 400;
+  color: #212021;
+}
+
+
+
+.navigation-link--block3 {
+  writing-mode: vertical-rl;
+  text-align: center;
+  margin-left: 55px;
+  width: 1310px;
 }
