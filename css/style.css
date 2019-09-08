@@ -67,11 +67,14 @@ body {
   font-size: 14px;
   font-weight: 400;
   padding: 0;
+  width: 1440px;
+  margin: 0 auto;
+
 }
 
 .header {
   margin: 0 auto;
-  width: 1440px;
+  /* width: 1440px; */
   min-height: 782px;
   background: url(../img/block-1/b1-border.png) no-repeat top 100px right 60px,  
               url(../img/block-1/b1-karly-gomez.jpg) no-repeat top right;  
@@ -184,7 +187,7 @@ body {
 } 
 
 .navigation-wrap-text h1::after {
-  content: "Photogrphy";
+  content: "Photography";
   position: absolute;
   color: #fffeff;
   font-family: "Source Serif Roman - Semibold";
@@ -205,7 +208,8 @@ body {
   margin-bottom: 42px;
 }
 
-.navigation-wrap-text a {
+.navigation-wrap-text a,
+.portfolio-more-download a {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -214,7 +218,8 @@ body {
   font-weight: 600;
 }
 
-.navigation-wrap-text a::before {
+.navigation-wrap-text a::before,
+.portfolio-more-download a::before {
   display: inline-block;
   content: "";
   position: absolute;
@@ -248,7 +253,7 @@ body {
   margin-bottom: 150px;
 }
 
-.portfolio-line {
+.line {
   width: 2px;
   height: 38px;
   border: 1px solid #cb98a8;
@@ -256,7 +261,8 @@ body {
   margin-bottom: 100px;
 }
 
-.portfolio-title {
+.portfolio-title,
+.about-me-title {
   padding: 0;
   margin: 0;
   color: #212021;
@@ -338,32 +344,103 @@ body {
   min-height: 510px;
   margin: 0 auto;
   background: url(../img/block-3/b3-bg2.png) no-repeat left 421px top 38px,
-              url(../img/block-3/b3-bg1.png) no-repeat left top;
+              url(../img/block-3/b3-bg1.png) no-repeat left top,
+              url(../img/block-3/b3-list1.png) no-repeat right 150px top 120px;
   margin-bottom: 130px;
 }
 
 .portfolio-more-content {
   display: flex;
   margin-top: 86px;
-  width: 970px;
+  width: 1310px;
 }
 
 .portfolio-more-img {
+  width: 615px;
+  height: 373px;
   margin-right: 31px;
 }
 
-.portfolio-more-title {
-  font-family: 'Source Serif Pro-Semibold';
-  font-size: 24px;
-  font-weight: 400;
-  color: #212021;
+.portfolio-more-text {
+  width: 280px;
+  margin: 0;
+  padding: 0;
 }
 
+.portfolio-more-title {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Serif Pro-Semibold';
+  font-size: 24px;
+  font-weight: 600;
+  color: #212021;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
 
+.portfolio-more-subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #212021;
+  margin-bottom: 37px;
+}
+
+.portfolio-more-download a:after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 28px;
+  background: url(../img/block-3/pdf.png) no-repeat;
+  right: -40px;
+  top: -3px;
+}
 
 .navigation-link--block3 {
   writing-mode: vertical-rl;
   text-align: center;
-  margin-left: 55px;
-  width: 1310px;
+  margin-left: 75px;
 }
+
+/* -- // Блок 3 //-- */
+
+/* --  Блок 4 -- */
+
+.about-me--line {
+  margin-bottom: 100px;
+}
+
+.about-me-title--block4 {
+  margin-bottom: 51px;
+}
+
+.about-me__inner {
+  display: flex;
+}
+
+.about-me__content {
+  width: 1130px;
+  display: flex;
+}
+
+.about-me__content-img1 {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.about-me__content-img2 {
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.about-me__content-text {
+  margin-top: 185px;
+}
+
+
+.about-me__content-text p {
+  font-size: 18px;
+  color: #1d1c1c;
+}
+
