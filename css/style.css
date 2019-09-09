@@ -208,8 +208,7 @@ body {
   margin-bottom: 42px;
 }
 
-.navigation-wrap-text a,
-.portfolio-more-download a {
+.button-link {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -218,8 +217,7 @@ body {
   font-weight: 600;
 }
 
-.navigation-wrap-text a::before,
-.portfolio-more-download a::before {
+.button-link--click:before {
   display: inline-block;
   content: "";
   position: absolute;
@@ -407,6 +405,12 @@ body {
 
 /* --  Блок 4 -- */
 
+.about-me {
+  min-height: 930px;
+  background: url(../img/block-4/b4-list1.png) no-repeat  left 100px top 10px,
+              url(../img/block-4/b4-list2.png) no-repeat  right 530px bottom 30px;
+}
+
 .about-me--line {
   margin-bottom: 100px;
 }
@@ -416,7 +420,10 @@ body {
 }
 
 .about-me__inner {
+  min-height: 610px;
   display: flex;
+  background: url(../img/block-4/b4-bg1.png) no-repeat left top,
+              url(../img/block-4/b4-bg2.png) no-repeat right 180px top 150px;
 }
 
 .about-me__content {
@@ -435,12 +442,43 @@ body {
 }
 
 .about-me__content-text {
+  width: 418px;
   margin-top: 185px;
+  padding-right: 115px;
 }
-
 
 .about-me__content-text p {
   font-size: 18px;
   color: #1d1c1c;
+}
+
+.about-me__content-text p:first-of-type {
+  margin-bottom: 30px;
+}
+
+.about-me__content-text p:last-of-type {
+  margin-bottom: 40px;
+}
+
+.about-me_contact {
+  margin-bottom: 50px;
+}
+
+.about-me_contact a{
+  margin-bottom: 50px;
+}
+
+.about-me_contact a{
+  display: block;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #1d1c1c;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.about-me_contact a {
+  font-family: "Source Serif Pro-Semibold";
+  letter-spacing: 0;
 }
 
