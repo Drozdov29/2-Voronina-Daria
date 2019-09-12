@@ -251,16 +251,15 @@ body {
   margin-bottom: 150px;
 }
 
-.line {
+.block-line {
   width: 2px;
   height: 38px;
   border: 1px solid #cb98a8;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 106px;
 }
 
-.portfolio-title,
-.about-me-title {
+.block-title {
   padding: 0;
   margin: 0;
   color: #212021;
@@ -270,6 +269,10 @@ body {
   letter-spacing: 3.6px;
   text-align: center;
   margin-bottom: 106px;
+}
+
+.block-title-mix {
+  text-transform: uppercase;
 }
 
 .portfolio-container {
@@ -406,13 +409,10 @@ body {
 /* --  Блок 4 -- */
 
 .about-me {
+  margin-bottom: 95px;
   min-height: 930px;
   background: url(../img/block-4/b4-list1.png) no-repeat  left 100px top 10px,
               url(../img/block-4/b4-list2.png) no-repeat  right 530px bottom 30px;
-}
-
-.about-me--line {
-  margin-bottom: 100px;
 }
 
 .about-me-title--block4 {
@@ -481,4 +481,8 @@ body {
   font-family: "Source Serif Pro-Semibold";
   letter-spacing: 0;
 }
+
+/* -- // Блок 4 //-- */
+
+/* --  Блок 5 -- */
 
