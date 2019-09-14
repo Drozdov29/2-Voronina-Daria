@@ -486,3 +486,59 @@ body {
 
 /* --  Блок 5 -- */
 
+.price__inner {
+  display: flex;
+}
+
+.price__box {
+  width: 1180px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.price__dish {
+  margin-bottom: 37px;
+}
+
+.img-dish-2 {
+  margin-bottom: 49px;
+}
+
+.price__box-title p:first-of-type {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Serif Pro-Semibold';
+  font-size: 24px;
+  line-height: 29px;
+  color: #8eb574;
+  padding-left: 80px;
+  text-align: left;
+
+}
+
+.price__box-title p:last-of-type {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Serif Pro-Semibold';
+  font-size: 17.9px;
+  line-height: 29px;
+  color: #8eb574;
+  padding-right: 80px;
+  text-align: right;
+}
+
+.price__box-subtitle {
+  padding: 0;
+  line-height: 23px;
+  color: #212021;
+  text-align: center;
+  margin: 0;
+}  
+
+.price__box-section-one {
+  margin-top: 172px;
+}
+
+.price__box-section-three {
+  margin-top: 200px;
+}
